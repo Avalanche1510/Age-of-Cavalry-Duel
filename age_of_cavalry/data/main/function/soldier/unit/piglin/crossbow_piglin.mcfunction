@@ -1,0 +1,4 @@
+summon piglin ^0.5 ^ ^ {NoAI:1b,Tags:["armor.chest","armor.feet","facing","archer","tier0","freeze"],equipment:{mainhand:{id:"minecraft:crossbow",components:{enchantments:{flame:1}}}},active_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:9999,show_particles:0b}]}
+summon piglin ^-0.5 ^ ^ {NoAI:1b,Tags:["armor.chest","armor.feet","facing","archer","tier0","freeze"],equipment:{mainhand:{id:"minecraft:crossbow",components:{enchantments:{flame:1}}}},active_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:9999,show_particles:0b}]}
+summon piglin ^1.5 ^ ^ {NoAI:1b,Tags:["armor.chest","armor.feet","facing","archer","tier0","freeze"],equipment:{mainhand:{id:"minecraft:crossbow",components:{enchantments:{flame:1}}}},active_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:9999,show_particles:0b}]}
+execute as @e[type=piglin,tag=facing,distance=..5] run function main:soldier/facing

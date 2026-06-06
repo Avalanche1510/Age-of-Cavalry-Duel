@@ -1,0 +1,21 @@
+{
+    "pack": {
+        "id": "Age of Cavalry: Duel",
+        "min_format": 94.1,
+        "max_format": 94.1,
+        "description": [
+            {
+                "text": "Age of Cavalry: Duel\n",
+                "color": "dark_red"
+            },
+            {
+                "text": " - An supportive pack for Duel mode of Age of Cavalry \nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Avalanche1510",
+                "color": "green"
+            }
+        ]
+    }
+}

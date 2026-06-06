@@ -1,0 +1,5 @@
+summon guardvillagers:guard ^1.5 ^ ^ {NoAI:1b,Tags:["armor.chest","armor.legs","armor.feet","facing","balanced","tier0","guard_helmet","freeze"],Inventory:[{Slot:0b,id:"minecraft:chainmail_helmet"},{Slot:5b,id:"minecraft:wooden_sword"}]}
+summon guardvillagers:guard ^-1.5 ^ ^ {NoAI:1b,Tags:["armor.chest","armor.legs","armor.feet","facing","balanced","tier0","guard_helmet","freeze"],Inventory:[{Slot:0b,id:"minecraft:chainmail_helmet"},{Slot:5b,id:"minecraft:wooden_sword"}]}
+summon guardvillagers:guard ^0 ^ ^ {NoAI:1b,Tags:["armor.chest","armor.legs","armor.feet","facing","balanced","tier0","guard_helmet","freeze"],Inventory:[{Slot:0b,id:"minecraft:chainmail_helmet"},{Slot:5b,id:"minecraft:wooden_sword"}]}
+execute as @e[type=guardvillagers:guard,tag=facing,distance=..5] run function main:soldier/facing
+    
