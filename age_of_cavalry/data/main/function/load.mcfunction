@@ -54,8 +54,9 @@ scoreboard objectives add region_y dummy "region height"
 scoreboard objectives add fire_ball_gravity dummy "fire ball gravity"
 scoreboard objectives add arrow_gravity dummy "arrow gravity"
 scoreboard objectives add daytime dummy "day time"
-scoreboard objectives add need_revise dummy "need_revise"
-
+scoreboard objectives add need_revise dummy "need revise"
+scoreboard objectives add arrow_height dummy "arrow height"
+scoreboard objectives add last_arrow_height dummy "last arrow height"
 
 scoreboard objectives add duel.stage dummy "duel stage"
 scoreboard objectives add duel.rotate_sec dummy "rotate second"
